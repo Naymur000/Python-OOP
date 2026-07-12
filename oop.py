@@ -3,10 +3,13 @@ class Car:
     #     self.model = ""
     #     self.brand = ""
 
-    def __init__(self, brand, model):
+    # def __init__(self, brand, model):
+    #     self.brand = brand
+    #     self.model = model
+
+    def __init__(self , brand = "Honda", model = "Civic"):
         self.brand = brand
         self.model = model
-
 
 car1 = Car("Toyota", "Corolla")
 # car1.brand = "Toyota"
@@ -15,7 +18,7 @@ car1 = Car("Toyota", "Corolla")
 print(car1.brand)
 print(car1.model)
 
-car2 = Car("Honda", "Civic")
+car2 = Car()
 # car2.brand = "Honda"
 # car2.model = "Civic"
 
